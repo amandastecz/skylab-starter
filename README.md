@@ -1,2 +1,2 @@
 # skylab-starter
-Cursos iniciais da Rocketseat
+https://skylab.rocketseat.com.br/
