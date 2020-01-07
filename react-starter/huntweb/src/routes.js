@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Main from './pages/main';
+import Main from './pages/main/index';
 import Product from './pages/product';
 
 const Routes = () => (
 	<BrowserRouter>
 		<Switch>
-			<Route exact path='/' componente={Main} />
-			<Route path='/product/:id' componente={Product} />
+			<Route path='/' component={Main} />
+			<Route path='/product/:id' component={Product} />
 		</Switch>
 	</BrowserRouter>
 );
